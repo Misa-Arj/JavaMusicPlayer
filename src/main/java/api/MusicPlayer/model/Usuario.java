@@ -1,5 +1,6 @@
 package api.MusicPlayer.model;
 
+import api.MusicPlayer.model.enums.TipoDaConta;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,5 +21,7 @@ public class Usuario {
     private String login;
 
     private String senha;
+
+
 
 }
