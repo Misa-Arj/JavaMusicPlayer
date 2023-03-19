@@ -20,7 +20,7 @@ public class Musica {
     @NotEmpty(message = "coluna nomeDaMusica não pode ser vazia")
     private String nomeDaMusica;
 
-    @NotEmpty(message = "duracao não pode ser vazia")
+    @NotEmpty(message = "duracao não pode ser vazia") 
     private Double duracao;
 
 
